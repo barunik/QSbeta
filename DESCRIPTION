@@ -1,0 +1,27 @@
+Package: QSbeta
+Type: Package
+Title: Quantile Spectral Beta
+Version: 1.0
+Date: 2021-12-01
+Author: Matej Nevrla
+Maintainer: Matej Nevrla <matej.nevrla@gmail.com>
+Description: Methods to compute quantile spectral beta and its confidence intervals for
+	time series data.
+License: GPL (>= 2)
+Depends: 
+    quantspec,
+    R (>= 2.10)
+Imports: methods,
+	quantspec,
+	rugarch,
+	pbivnorm,
+	Rcpp (>= 1.0.7)
+LinkingTo: Rcpp
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+Collate: 
+    'generics.R'
+    'QsBeta.R'
+    'RcppExports.R'
+    'TrEvrBeta.R'
+LazyData: true
